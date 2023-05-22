@@ -127,3 +127,17 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* Ordine per Desktop First
+    - Caso Base --> Desktop; 
+    - Tablet --> In Media Query max-width: 768px;
+    - Mobile --> In Media Query max-width: 480px;*/
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 100%;
+        }
+        
+    }
+    @media screen and (max-width: 480px) {
+
+        
+    }
